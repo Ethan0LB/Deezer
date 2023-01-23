@@ -1,0 +1,253 @@
+.container-fluid{
+	/*border: solid red 3px;*/
+	/*background-color: #191922;*/
+	background-color: #121216;
+
+}
+
+.container{
+	/*order: solid orange 3px;*/
+	padding-left: 270px;
+	max-width: 100%;
+	/*background-color: #121216;*/
+	padding-bottom: 500px;
+}
+
+.row{
+	/*border: solid blue 3px;*/
+}
+
+
+.col{
+	/*border: solid green 3px;*/
+}
+
+
+.menu{
+	/*border: solid purple 3px;*/
+	background-color: #191922;
+	float: left;
+	padding-bottom: 100%;
+	width: 220px;
+	position: fixed;
+}
+
+h5{
+	color: white;
+}
+
+.txtGrey{
+	color: #A2A2AD;
+}
+
+.h2Logo{
+	max-height: 75px;
+}
+
+a{
+	color: white;
+}
+a:hover{color:#EF5466;}
+
+.disabled{
+	color: grey;
+}
+.disabled:hover{color:#EF5466;}
+
+.sizeMenu{
+	font-size: 1.1em;
+	/*border: solid red 1px;*/
+	height: 230px;
+	padding-left: 15px;
+}
+
+.sizeMenuDisabled{
+	font-size: 0.9em;
+	padding-left: 40px;
+}
+
+.paddingSearch{
+	padding-bottom: 10px;
+}
+
+.arrondiBtn{
+	margin: 0 15px 15px 15px;
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+}
+
+
+.flow{
+	background: 
+	radial-gradient(circle at 50% 0,
+        #FF7017,
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        #2766A1,
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        #D00E79,
+        rgba(0,255,0,0) 70.71%) beige;
+}
+
+
+.imgGreyBtn{
+	width: 70px;
+	height: 70px;
+}
+
+.greyBtn{
+	background: #23232D;
+}
+
+
+.logoDeezer{
+	float: left;
+	padding: 10px 0 0 10px;
+	width: 42px;
+	height: 56px;
+}
+
+.logoMenu{
+	float: left;
+	padding: 6px 5px 0 5px;
+}
+
+.musique{
+	width: 40px;
+	height: 37px;
+}
+
+.podcasts{
+	width: 37px;
+	height: 40px;
+}
+
+.radio{
+	width: 42px;
+	height: 40px;
+}
+
+.parcourir{
+	width: 42px;
+	height: 38px;
+}
+
+.favoris{
+	width: 38px;
+	height: 35px;
+}
+
+.center{
+	text-align: center;
+}
+
+
+.spanFlow{
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.spanAlbums{
+	display: block;
+	margin: auto;
+}
+
+
+.albums{
+	width: 265px;
+	height: 265px;
+	border-radius: 5px;
+	opacity: 100%;
+	transition: 0.3s;
+}
+
+.albums:hover{
+	filter: brightness(75%);
+	transition: 0.3s;
+}
+
+.h5Titre{
+	padding-bottom: 20px;
+	padding-top: 25px;
+}
+
+
+.chooseAlbum{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: solid white 1px;
+}
+
+.pauseBtnLecteur{
+	visibility: hidden;
+	right: 55px;
+}
+
+.playerBtnLecteur, .backBtnLecteur, .nextBtnLecteur, .pauseBtnLecteur{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: solid #23232D 1px;
+	background-color: #23232D;
+	position: relative;
+}
+
+.backBtnLecteur, .nextBtnLecteur{
+	visibility: hidden;
+}
+
+.playerBtnLecteur:hover, .backBtnLecteur:hover, .nextBtnLecteur:hover, .pauseBtnLecteur:hover{
+	/*background-color: #3E3E47;*/
+	filter: brightness(200%);
+}
+
+.imgPlayerBtnLecteur, .imgBackBtnLecteur, .imgNextBtnLecteur, .imgPauseBtnLecteur{
+	width : 26px;
+	height: 34px;
+}
+
+
+.show{
+	visibility: visible;
+}
+
+.hide{
+	visibility: hidden;
+}
+
+.parent{
+	position: relative;
+}
+
+.enfant{
+	position: absolute;
+	bottom: 15px;
+	left: 10px;
+}
+
+.imgPlayerBtn{
+	width: 25px;
+	height: 28px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+
+}
+
+
+.footer{
+	padding: 15px;
+	background-color: #23232D;
+}
+
+.barre{
+	width: 50%;
+}
+
+#volumeBar{
+	background-color: green;
+
+}
