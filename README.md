@@ -1,8 +1,7 @@
-J'ai essayé de reproduire l'interface de Deezer.
+J'ai essayé de créer une interface similaire à Deezer avec les fonctionnalités suivantes :
 
-Les fonctionnalités disponibles sont: 
-  1. Le choix de l'album
-  2. Passer sur la musique d'après
-  3. Revenir sur la musique précédente
-  4. Mettre en pause
-  5. Baisse ou augmenter le volume
+Sélectionner un album.
+Passer à la prochaine chanson.
+Revenir à la chanson précédente.
+Mettre la musique en pause.
+Régler le volume en le baissant ou en l'augmentant.
